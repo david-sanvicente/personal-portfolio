@@ -1,0 +1,39 @@
+import React from 'react';
+import './styles.scss';
+import ContactButtons from '../contactButtons/ContactButtons';
+
+export default class Header extends React.Component {
+    render() {
+        return (
+            <React.Fragment>
+                <section className={`header`}>
+                    <nav className={`header__nav`}>
+                        <div className={`container`}>
+                            <h1>David<span>Sanvicente</span></h1>
+                            <ul className={`nav-links`}>
+                                {/* <li><a href={`#technologies`}>Technologies</a></li> */}
+                                {/* <li><a href={`#about-me`}>About Me</a></li> */}
+                                <li><a href={`#projects`}>Projects</a></li>
+                                <li><a href={`mailto:david.sanvicente.js@gmail.com?subject = Feedback&body = Message`}>Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    
+                    <div className={`container`}>
+                        <div className={`header__name-tag`}>
+                            <h1>Full Stack Software Engineer</h1>
+                            <p>
+                                <i className="fas fa-map-marker-alt" style={{marginRight: '15px'}}></i><strong>New York Metro Area</strong>
+                            </p>
+                        </div>
+                        <div className={`header__actions`}>
+                            <ContactButtons />
+                        </div>
+                    </div>
+                </section>
+            </React.Fragment>
+        )
+    }
+}
+
+
