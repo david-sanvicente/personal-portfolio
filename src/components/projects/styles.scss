@@ -2,7 +2,9 @@
 @import '../../styles/global/variables';
 
 .projects {
-    grid-column: container-start / col-end 8;
+    // justify-content: center;
+    // grid-column: container-start / col-end 8;
+    grid-column: container-start / col-end 12;
     padding: 10rem 0;
 
     @include breakpoint(md){

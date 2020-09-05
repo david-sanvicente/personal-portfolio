@@ -48,15 +48,15 @@ export default class Projects extends Component {
                         <div className={`col-2`}>
                             <div className={`project__detail-section`}>
                                 <p className={`small-section-title`}>My Role</p>
-                                <p>In this group project I worked extensively on the <span className={`highlight`}>reducer</span>. This held our application state data, a 2D array containing the coordinate points that represent what the user draws. I also worked to complete the <span className={`highlight`}>Download</span> functionality, which pulled from the server geo-cached art objects saved by other nearby users and mapped it onto an AR plan on the user's device. </p>
+                                <p>In this group project, I worked extensively on the <span className={`highlight`}>reducer</span>. This held our application state data, a 2D array containing the coordinate points that represent what the user draws. I also completed the <span className={`highlight`}>Download</span> functionality, which allows for users to view graffiti created by other users while at the location of the art's creation.</p>
                             </div>
                             <div className={`project__detail-section`}>
                                 <p className={`small-section-title`}>Project Difficulties</p>
-                                <p>During development, we discovered that the Viro library we were using was incapable of rendering any non-Viro components to our AR scene. This presented a serious problem to our application, as Viro's "Navigator" Component wouldn't facilitate the passing of data between parent and child components.</p>
+                                <p>During development, we discovered that the Viro library we were using was incapable of rendering any non-Viro components to our AR scene. This presented a serious problem to our application, as Viro's Navigator Component wouldn't facilitate the passing of data between our parent and child components.</p>
                             </div>
                             <div className={`project__detail-section`}>
-                                <p className={`small-section-title`}>My Solution</p>
-                                <p>To resolve this, we implemented <span className='highlight'>Redux</span> to connect the two components via a single store.</p>
+                                <p className={`small-section-title`}>Solutions</p>
+                                <p>To resolve this, we implemented <span className='highlight'>Redux</span> to connect the two components via a single store, bypassing the Navigator and allowing our graffiti component to draw on the Viro AR plane.</p>
                             </div>
                             <div className={`project__detail-section`}>
                                 <p className={`small-section-title`}>Notable Features</p>
