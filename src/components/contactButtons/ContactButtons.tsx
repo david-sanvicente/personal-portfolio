@@ -26,15 +26,15 @@ export default class ContactButtons extends React.Component<{}, {modalOpen: bool
             <React.Fragment>
                 <a href={`https://www.linkedin.com/in/davidsanvicente/`} className={`action`} target={`_blank`}>
                     <i className="fab fa-linkedin-in"></i>
-                    <span>LinkedIn</span>
+                    <span><strong>LinkedIn</strong></span>
                 </a>
                 <a href={`https://github.com/david-sanvicente`} className={`action`} target={`_blank`}>
                     <i className="fab fa-github"></i>
-                    <span>Github</span>
+                    <span><strong>Github</strong></span>
                 </a>
                 <a href={`https://drive.google.com/file/d/1VrxIlvWJUZJPrqPIaRQOzAPP-pieyikU/view?usp=sharing`} className={`action`} target={`_blank`}>
                     <i className="fas fa-newspaper"></i>
-                    <span>Resume</span>
+                    <span><strong>Resume</strong></span>
                 </a>
                 { this.state.modalOpen && 
                     <ModalPortal>
