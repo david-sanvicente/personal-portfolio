@@ -23,8 +23,12 @@
 
 .project{
     display: grid;
+    // align-items: center;
+    // grid-column: flush-start / flush-end;
+
     grid-template-columns: 30rem 1fr;
     grid-gap: 8rem;
+    // justify-content: center;
 
     @include breakpoint(md){
         grid-template-columns: 1fr;
