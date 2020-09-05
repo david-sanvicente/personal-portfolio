@@ -15,18 +15,12 @@
     grid-column: flush-start / flush-end;
     height: 100%;    
     box-shadow: 0 1rem 3rem rgba(black, .1);
-    padding: 3rem;
-    // overflow: scroll;
+    padding: 2rem;
     
     .container{
         display: flex;
-        // flex-direction: row;
-        // overflow: hidden;
+        overflow-x: hidden;
         justify-content: center;
-        // align-items: center;
-        // height: 100%;
-        // list-style: none;
-        // white-space: nowrap;
 
     }
 
