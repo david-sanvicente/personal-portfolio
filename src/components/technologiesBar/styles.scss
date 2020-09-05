@@ -16,7 +16,7 @@
     height: 100%;    
     box-shadow: 0 1rem 3rem rgba(black, .1);
     padding: 3rem;
-    overflow: hidden;
+    // overflow: scroll;
     
     .container{
         display: flex;
@@ -29,7 +29,6 @@
         // white-space: nowrap;
 
     }
-    
 
     &__image{
         display: block;

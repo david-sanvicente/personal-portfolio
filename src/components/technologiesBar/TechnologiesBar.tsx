@@ -27,7 +27,6 @@ export default class TechnologiesBar extends React.Component {
                     <img className={`technologies-bar__image`} src={css_logo} alt={`css`} />
                     <img className={`technologies-bar__image`} src={html_logo} alt={`html`} />
 
-
                 </div>
             </div>
         )
