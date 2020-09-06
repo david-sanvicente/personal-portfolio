@@ -29,9 +29,9 @@ export default class Projects extends Component {
                             <div className={`project__technologies`}>
                                 <p className={`small-section-title`}>Technologies Used</p>
                                 <ul className={`project__technologies__list`}>
-                                    <li><i className="fas fa-dot-circle"></i><p>React</p></li>
+                                    <li><i className="fas fa-dot-circle"></i><p>React Native</p></li>
                                     <li><i className="fas fa-dot-circle"></i><p>Redux</p></li>
-                                    <li><i className="fas fa-dot-circle"></i><p>Viro</p></li>
+                                    <li><i className="fas fa-dot-circle"></i><p>ViroReact</p></li>
                                     <li><i className="fas fa-dot-circle"></i><p>Node.js</p></li>
                                     <li><i className="fas fa-dot-circle"></i><p>Express</p></li>
                                     <li><i className="fas fa-dot-circle"></i><p>Sequelize</p></li>

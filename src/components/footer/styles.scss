@@ -1,0 +1,19 @@
+@import '../../styles/global/mixins';
+@import '../../styles/global/variables';
+
+// #emailMe {
+//     color: inherit;
+//     // all: unset;
+//     // color: white;
+//     text-decoration: none;
+// }
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+    color: inherit;
+
+}
