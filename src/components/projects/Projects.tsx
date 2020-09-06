@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './styles.scss';
 import sprayrbg from '../../assets/images/sprayrbg.jpg';
+import botbuddiesbg from '../../assets/images/botbuddiesbg.jpg';
 
 export default class Projects extends Component {
     render() {
@@ -8,6 +9,7 @@ export default class Projects extends Component {
             <section id={`projects`} className={`projects`}>
                 <h1 className={`heading`}>Projects</h1>
                 <div className={`projects__grid`}>
+
                     <div className={`project`}>
                         <div className={`col-1`}>
                             <h3 className={`heading-secondary`}><span className='highlight'>Spray-R</span></h3>
@@ -34,14 +36,6 @@ export default class Projects extends Component {
                                     <li><i className="fas fa-dot-circle"></i><p>Express</p></li>
                                     <li><i className="fas fa-dot-circle"></i><p>Sequelize</p></li>
                                     <li><i className="fas fa-dot-circle"></i><p>PostgreSQL</p></li>
-                                    {/* <li><i className="fas fa-dot-circle"></i><p>SinonJS</p></li>
-                                    <li><i className="fas fa-dot-circle"></i><p>Webpack</p></li>
-                                    <li><i className="fas fa-dot-circle"></i><p>Babel</p></li>
-                                    <li><i className="fas fa-dot-circle"></i><p>HTML5</p></li>
-                                    <li><i className="fas fa-dot-circle"></i><p>CSS3</p></li>
-                                    <li><i className="fas fa-dot-circle"></i><p>Sass</p></li>
-                                    <li><i className="fas fa-dot-circle"></i><p>Typescript</p></li>
-                                    <li><i className="fas fa-dot-circle"></i><p>Jest</p></li> */}
                                 </ul>
                             </div>
                         </div>
@@ -68,67 +62,65 @@ export default class Projects extends Component {
                         </div>
                     </div>
 
-                    {/* <hr />
+                    <hr/>
 
                     <div className={`project`}>
                         <div className={`col-1`}>
-                            <h3 className={`heading-secondary`}><span className='highlight'>My Project</span></h3>
+                            <h3 className={`heading-secondary`}><span className='highlight'>Bot Buddies</span></h3>
                             <div className={`project__display`}>
                                 <div className={`project__display__poster`}>
-                                    <a href={`https://github.com/david-sanvicente`}>
-                                        <img src={sprayrbg} alt={`Project Thumbnail`} />
+                                    <a href={`https://github.com/Object-Oriented-Obfuscators/bot-buddies`}>
+                                        <img src={botbuddiesbg} alt={`Project Thumbnail`} />
                                     </a>
                                 </div>
                                 <div className={`project__display__actions`}>
-                                    <a href={`https://github.com/david-sanvicente`} className={`link`}><i className="fas fa-desktop"></i><span className="highlight">Live Demo</span></a>
-                                    <a href={`#`} className={`link link--inactive`}><i className="fas fa-code-branch"></i><span>Source Private</span></a>
-                                    <a href={`https://github.com/david-sanvicente`} className={`link`}><i className="fas fa-code-branch"></i><span className="highlight">View Source</span></a>
+                                    <a href={`http://botbuddies.herokuapp.com/`} className={`link`}><i className="fas fa-desktop"></i><span className="highlight">Heroku Demo</span></a>
+                                    {/* <a href={`#`} className={`link link--inactive`}><i className="fas fa-code-branch"></i><span>Source Private</span></a> */}
+                                    <a href={`https://github.com/Object-Oriented-Obfuscators/bot-buddies`} className={`link`}><i className="fas fa-code-branch"></i><span className="highlight">View Source</span></a>
                                 </div>
-                                <p className={'aside'}>Provide a short description of the application.</p>
+                                <p className={'aside'}>Buy new robot friends with this full stack e-commerce application.</p>
                             </div>
+
                             <div className={`project__technologies`}>
                                 <p className={`small-section-title`}>Technologies Used</p>
                                 <ul className={`project__technologies__list`}>
                                     <li><i className="fas fa-dot-circle"></i><p>React</p></li>
                                     <li><i className="fas fa-dot-circle"></i><p>Redux</p></li>
-                                    <li><i className="fas fa-dot-circle"></i><p>Viro</p></li>
                                     <li><i className="fas fa-dot-circle"></i><p>Node.js</p></li>
                                     <li><i className="fas fa-dot-circle"></i><p>Express</p></li>
                                     <li><i className="fas fa-dot-circle"></i><p>Sequelize</p></li>
                                     <li><i className="fas fa-dot-circle"></i><p>PostgreSQL</p></li>
-                                    <li><i className="fas fa-dot-circle"></i><p>SinonJS</p></li>
-                                    <li><i className="fas fa-dot-circle"></i><p>Webpack</p></li>
-                                    <li><i className="fas fa-dot-circle"></i><p>Babel</p></li>
                                     <li><i className="fas fa-dot-circle"></i><p>HTML5</p></li>
                                     <li><i className="fas fa-dot-circle"></i><p>CSS3</p></li>
-                                    <li><i className="fas fa-dot-circle"></i><p>Sass</p></li>
-                                    <li><i className="fas fa-dot-circle"></i><p>Typescript</p></li>
-                                    <li><i className="fas fa-dot-circle"></i><p>Jest</p></li>
                                 </ul>
                             </div>
                         </div>
                         <div className={`col-2`}>
                             <div className={`project__detail-section`}>
                                 <p className={`small-section-title`}>My Role</p>
-                                <p>How did I contribute most meaninfully? Specifically, which modules did I work on and on which features?</p>
+                                <p>Early in this project, I deployed the <span className={`highlight`}>front-end components</span> for rendering the all products page and the single product view as well as, on the back-end, having written the application's <span className={`highlight`}>APIs in Express</span> and the <span className={`highlight`}>ORM in Sequelize</span>.</p>
                             </div>
                             <div className={`project__detail-section`}>
                                 <p className={`small-section-title`}>Project Difficulties</p>
-                                <p>Project difficulties, because there are always more than a few.</p>
+                                <p>The greatest challenge we encountered was in designing our <span className={`highlight`}>database schema</span>. Our initial tables were overloaded and weren't serving our application data properly, as we attempted to store the user's cart information in the same table as the orders.</p>
                             </div>
                             <div className={`project__detail-section`}>
                                 <p className={`small-section-title`}>My Solution</p>
-                                <p>My solution goes here.</p>
+                                <p>To resolve this, we used <span className={`highlight`}>local storage</span> to have our cart data persist across <span className={`highlight`}>sessions</span>, simplifying our database schema and creating a more performant application.</p>
                             </div>
                             <div className={`project__detail-section`}>
                                 <p className={`small-section-title`}>Notable Features</p>
                                 <ul className={'project__technologies__list project__technologies__list--no-grid'}>
-                                    <li><i className="fas fa-dot-circle"></i><p>Notable feature 1</p></li>
-                                    <li><i className="fas fa-dot-circle"></i><p>Notable feature 2</p></li>
+                                    <li><i className="fas fa-dot-circle"></i><p>Login using Google OAuth</p></li>
+                                    <li><i className="fas fa-dot-circle"></i><p>Nested React Components</p></li>
+                                    <li><i className="fas fa-dot-circle"></i><p>Manages sessions using local storage</p></li>
+                                    <li><i className="fas fa-dot-circle"></i><p>CI/CD with Travis and deployed using Heroku</p></li>
+
+
                                 </ul>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
 
                     {/* <hr></hr>
 
