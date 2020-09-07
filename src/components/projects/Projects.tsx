@@ -115,62 +115,12 @@ export default class Projects extends Component {
                                     <li><i className="fas fa-dot-circle"></i><p>Nested React Components</p></li>
                                     <li><i className="fas fa-dot-circle"></i><p>Manages sessions using local storage</p></li>
                                     <li><i className="fas fa-dot-circle"></i><p>CI/CD with Travis and deployed using Heroku</p></li>
-
-
                                 </ul>
                             </div>
                         </div>
                     </div>
 
-                    {/* <hr></hr>
-
-                    <div className={`project`}>
-                            <h3 className={`heading-secondary`}><span className='highlight'>My Project</span></h3>
-                            <div className={`project__display`}>
-                                <div className={`project__display__poster`}>
-                                    <a href={`https://github.com/david-sanvicente`}>
-                                        <img src={sprayrbg} alt={`Project Thumbnail`} />
-                                    </a>
-                                </div>
-                                <div className={`project__display__actions`}>
-                                    <a href={`https://github.com/david-sanvicente`} className={`link`}><i className="fas fa-desktop"></i><span className="highlight">Live Demo</span></a>
-                                    <a href={`#`} className={`link link--inactive`}><i className="fas fa-code-branch"></i><span>Source Private</span></a>
-                                    <a href={`https://github.com/david-sanvicente`} className={`link`}><i className="fas fa-code-branch"></i><span className="highlight">View Source</span></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className={`project`}>
-                            <h3 className={`heading-secondary`}><span className='highlight'>My Project</span></h3>
-                            <div className={`project__display`}>
-                                <div className={`project__display__poster`}>
-                                    <a href={`https://github.com/david-sanvicente`}>
-                                        <img src={sprayrbg} alt={`Project Thumbnail`} />
-                                    </a>
-                                </div>
-                                <div className={`project__display__actions`}>
-                                    <a href={`https://github.com/david-sanvicente`} className={`link`}><i className="fas fa-desktop"></i><span className="highlight">Live Demo</span></a>
-                                    <a href={`#`} className={`link link--inactive`}><i className="fas fa-code-branch"></i><span>Source Private</span></a>
-                                    <a href={`https://github.com/david-sanvicente`} className={`link`}><i className="fas fa-code-branch"></i><span className="highlight">View Source</span></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className={`project`}>
-                            <h3 className={`heading-secondary`}><span className='highlight'>My Project</span></h3>
-                            <div className={`project__display`}>
-                                <div className={`project__display__poster`}>
-                                    <a href={`https://github.com/david-sanvicente`}>
-                                        <img src={sprayrbg} alt={`Project Thumbnail`} />
-                                    </a>
-                                </div>
-                                <div className={`project__display__actions`}>
-                                    <a href={`https://github.com/david-sanvicente`} className={`link`}><i className="fas fa-desktop"></i><span className="highlight">Live Demo</span></a>
-                                    <a href={`#`} className={`link link--inactive`}><i className="fas fa-code-branch"></i><span>Source Private</span></a>
-                                    <a href={`https://github.com/david-sanvicente`} className={`link`}><i className="fas fa-code-branch"></i><span className="highlight">View Source</span></a>
-                                </div>
-                        </div>
-                    </div> */}
+                    <hr/>
 
                 </div>
             </section>

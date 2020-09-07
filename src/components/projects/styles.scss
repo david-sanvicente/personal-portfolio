@@ -7,6 +7,8 @@
     grid-column: container-start / col-end 12;
     padding: 10rem 0;
 
+    // border: dotted;
+
     @include breakpoint(md){
         grid-column: container-start / container-end;
     }
@@ -27,12 +29,18 @@
     display: grid;
     grid-template-columns: 30rem 1fr; // sizes col-1
     grid-gap: 8rem;
+
     // align-items: center;
     // grid-column: flush-start / flush-end;
     // justify-content: center;
 
     @include breakpoint(md){
         grid-template-columns: 1fr;
+    }
+
+    .col-1{
+        // border: solid;
+        // background-color: pink;
     }
 
     .col-2{
