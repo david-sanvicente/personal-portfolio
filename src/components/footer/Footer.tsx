@@ -11,10 +11,10 @@ export default class Footer extends Component {
                             <h1>Contact Me
                                 <br /><small>Please reach out with any questions or feedback</small>
                             </h1>
-                            {/* <div id={`footer_buttons`}><ContactButtons /></div>                            */}
+                            <div id={`footer_buttons`}><ContactButtons /></div>                           
                             <div id="emailMe">
                                 <a href={`mailto:david.sanvicente.js@gmail.com?subject = Feedback&body = Message`}>
-                                    <h4 id="emailMe">david.sanvicente.js@gmail.com</h4>
+                                    <h3 id="emailMe">david.sanvicente.js@gmail.com</h3>
                                 </a>
                             </div>
                         </div>
