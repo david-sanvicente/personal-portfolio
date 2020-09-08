@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import sprayrbg from '../../assets/images/sprayrbg.jpg';
 import pixelate from '../../assets/images/pixelate.png';
-import whackamole from '../../assets/images/whackamole.jpg';
-import shoppingcart from '../../assets/images/shoppingcart.png';
+import whackamole from '../../assets/images/whackamole.png';
+import shoppingcart from '../../assets/images/shoppingCart.png';
 import './styles.scss';
 
 export default class Tiles extends Component {
