@@ -17,3 +17,10 @@ a:active{
     color: inherit;
 
 }
+
+#footer_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}

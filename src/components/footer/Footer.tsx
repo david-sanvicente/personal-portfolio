@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import ContactButtons from '../contactButtons/ContactButtons';
+import './styles.scss';
 
 export default class Footer extends Component {
     render(){
@@ -9,6 +11,7 @@ export default class Footer extends Component {
                             <h1>Contact Me
                                 <br /><small>Please reach out with any questions or feedback</small>
                             </h1>
+                            {/* <div id={`footer_buttons`}><ContactButtons /></div>                            */}
                             <div id="emailMe">
                                 <a href={`mailto:david.sanvicente.js@gmail.com?subject = Feedback&body = Message`}>
                                     <h4 id="emailMe">david.sanvicente.js@gmail.com</h4>

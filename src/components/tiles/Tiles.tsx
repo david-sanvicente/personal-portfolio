@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import sprayrbg from '../../assets/images/sprayrbg.jpg';
+import pixelate from '../../assets/images/pixelate.png';
+import whackamole from '../../assets/images/whackamole.jpg';
+import shoppingcart from '../../assets/images/shoppingcart.png';
 import './styles.scss';
 
 export default class Tiles extends Component {
@@ -8,105 +11,73 @@ export default class Tiles extends Component {
             <React.Fragment>
                 <div id={`tiles`} className={`tiles`}>
                     <div className={`tile`}>
-                        <h3 className={`heading-secondary`}><span className='highlight'>Spray-R</span></h3>
+                        <h3 className={`heading-secondary`}><span className='highlight'>Whack-A-Mole!</span></h3>
                         <div className={`project__display`}>
                             <div className={`project__display__poster`}>
-                                <a href={`https://www.youtube.com/watch?v=p1x6HlvMUgU`}>
-                                    <img src={sprayrbg} alt={`Project Thumbnail`} />
+                                <a href={`https://mole-whack.netlify.app`}>
+                                    <img src={whackamole} alt={`Project Thumbnail`} />
                                 </a>
                             </div>
                             <div className={`project__display__actions`}>
-                                <a href={`https://www.youtube.com/watch?v=p1x6HlvMUgU`} className={`link`}><i className="fas fa-desktop"></i><span className="highlight">View Demo</span></a>
+                                <a href={`https://mole-whack.netlify.app`} className={`link`}><i className="fas fa-desktop"></i><span className="highlight">View Demo</span></a>
                                 {/* <a href={`#`} className={`link link--inactive`}><i className="fas fa-code-branch"></i><span>Source Private</span></a> */}
-                                <a href={`https://github.com/string-cheese-fsa/spray-r`} className={`link`}><i className="fas fa-code-branch"></i><span className="highlight">View Source</span></a>
+                                <a href={`https://github.com/david-sanvicente/whack-a-mole`} className={`link`}><i className="fas fa-code-branch"></i><span className="highlight">View Source</span></a>
                             </div>
-                            <p className={'aside'}>Spray-R is a mobile <span className={"highlight"}>augmented reality</span> graffiti app. Draw on real world surfaces and share your art with users nearby.</p>
+                            <p className={'aside'}>A whack-a-mole game in <span className={`highlight`}>Javascript</span>. Whack 20 moles to win. Demonstrates <span className={`highlight`}>event blubbling</span> and use of the Math Class.</p>
                         </div>
                         <div className={`project__technologies`}>
-                            <p className={`small-section-title`}>Technologies Used</p>
                             <ul className={`project__technologies__list`}>
-                                <li><i className="fas fa-dot-circle"></i><p>React Native</p></li>
-                                <li><i className="fas fa-dot-circle"></i><p>Redux</p></li>
-                                <li><i className="fas fa-dot-circle"></i><p>ViroReact</p></li>
-                                <li><i className="fas fa-dot-circle"></i><p>Node.js</p></li>
+                                <li><i className="fas fa-dot-circle"></i><p>HTML</p></li>
+                                <li><i className="fas fa-dot-circle"></i><p>CSS</p></li>
+                                <li><i className="fas fa-dot-circle"></i><p>JavaScript</p></li>
                             </ul>
                         </div>
                     </div>
 
                     <div className={`tile`}>
-                        <h3 className={`heading-secondary`}><span className='highlight'>Spray-R</span></h3>
+                        <h3 className={`heading-secondary`}><span className='highlight'>Pixelate</span></h3>
                         <div className={`project__display`}>
                             <div className={`project__display__poster`}>
-                                <a href={`https://www.youtube.com/watch?v=p1x6HlvMUgU`}>
-                                    <img src={sprayrbg} alt={`Project Thumbnail`} />
+                                <a href={`https://pixelate-draw.netlify.app`}>
+                                    <img src={pixelate} alt={`Project Thumbnail`} />
                                 </a>
                             </div>
                             <div className={`project__display__actions`}>
-                                <a href={`https://www.youtube.com/watch?v=p1x6HlvMUgU`} className={`link`}><i className="fas fa-desktop"></i><span className="highlight">View Demo</span></a>
+                                <a href={`https://pixelate-draw.netlify.app`} className={`link`}><i className="fas fa-desktop"></i><span className="highlight">View Demo</span></a>
                                 {/* <a href={`#`} className={`link link--inactive`}><i className="fas fa-code-branch"></i><span>Source Private</span></a> */}
-                                <a href={`https://github.com/string-cheese-fsa/spray-r`} className={`link`}><i className="fas fa-code-branch"></i><span className="highlight">View Source</span></a>
+                                <a href={`https://github.com/david-sanvicente/pixelate`} className={`link`}><i className="fas fa-code-branch"></i><span className="highlight">View Source</span></a>
                             </div>
-                            <p className={'aside'}>Spray-R is a mobile <span className={"highlight"}>augmented reality</span> graffiti app. Draw on real world surfaces and share your art with users nearby.</p>
+                            <p className={'aside'}>Make 8-bit art! Uses <span className={`highlight`}>JavaScript</span> to add and remove columns and rows to the <span className={`highlight`}>table</span>. Changes cell colors by reassigning the clicked target's <span className={`highlight`}>className</span> property.</p>
                         </div>
                         <div className={`project__technologies`}>
-                            <p className={`small-section-title`}>Technologies Used</p>
                             <ul className={`project__technologies__list`}>
-                                <li><i className="fas fa-dot-circle"></i><p>React Native</p></li>
-                                <li><i className="fas fa-dot-circle"></i><p>Redux</p></li>
-                                <li><i className="fas fa-dot-circle"></i><p>ViroReact</p></li>
-                                <li><i className="fas fa-dot-circle"></i><p>Node.js</p></li>
+                                <li><i className="fas fa-dot-circle"></i><p>HTML</p></li>
+                                <li><i className="fas fa-dot-circle"></i><p>CSS</p></li>
+                                <li><i className="fas fa-dot-circle"></i><p>JavaScript</p></li>
                             </ul>
                         </div>
                     </div>
 
                     <div className={`tile`}>
-                        <h3 className={`heading-secondary`}><span className='highlight'>Spray-R</span></h3>
+                        <h3 className={`heading-secondary`}><span className='highlight'>Shopping Cart</span></h3>
                         <div className={`project__display`}>
                             <div className={`project__display__poster`}>
-                                <a href={`https://www.youtube.com/watch?v=p1x6HlvMUgU`}>
-                                    <img src={sprayrbg} alt={`Project Thumbnail`} />
+                                <a href={`https://shopcartjs.netlify.app/`}>
+                                    <img src={shoppingcart} alt={`Project Thumbnail`} />
                                 </a>
                             </div>
                             <div className={`project__display__actions`}>
-                                <a href={`https://www.youtube.com/watch?v=p1x6HlvMUgU`} className={`link`}><i className="fas fa-desktop"></i><span className="highlight">View Demo</span></a>
+                                <a href={`https://shopcartjs.netlify.app/`} className={`link`}><i className="fas fa-desktop"></i><span className="highlight">View Demo</span></a>
                                 {/* <a href={`#`} className={`link link--inactive`}><i className="fas fa-code-branch"></i><span>Source Private</span></a> */}
-                                <a href={`https://github.com/string-cheese-fsa/spray-r`} className={`link`}><i className="fas fa-code-branch"></i><span className="highlight">View Source</span></a>
+                                <a href={`https://github.com/david-sanvicente/shoppingcart`} className={`link`}><i className="fas fa-code-branch"></i><span className="highlight">View Source</span></a>
                             </div>
-                            <p className={'aside'}>Spray-R is a mobile <span className={"highlight"}>augmented reality</span> graffiti app. Draw on real world surfaces and share your art with users nearby.</p>
+                            <p className={'aside'}>A classic shopping cart application in <span className={`highlight`}>JavaScript</span>. The app renders list items to and from <span className={`highlight`}>collections</span> and makes use of event listeners and input fields. To update the cart, it uses a <span className={`highlight`}>search algorithm</span> using a boolean flag.</p>
                         </div>
                         <div className={`project__technologies`}>
-                            <p className={`small-section-title`}>Technologies Used</p>
                             <ul className={`project__technologies__list`}>
-                                <li><i className="fas fa-dot-circle"></i><p>React Native</p></li>
-                                <li><i className="fas fa-dot-circle"></i><p>Redux</p></li>
-                                <li><i className="fas fa-dot-circle"></i><p>ViroReact</p></li>
-                                <li><i className="fas fa-dot-circle"></i><p>Node.js</p></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div className={`tile`}>
-                        <h3 className={`heading-secondary`}><span className='highlight'>Spray-R</span></h3>
-                        <div className={`project__display`}>
-                            <div className={`project__display__poster`}>
-                                <a href={`https://www.youtube.com/watch?v=p1x6HlvMUgU`}>
-                                    <img src={sprayrbg} alt={`Project Thumbnail`} />
-                                </a>
-                            </div>
-                            <div className={`project__display__actions`}>
-                                <a href={`https://www.youtube.com/watch?v=p1x6HlvMUgU`} className={`link`}><i className="fas fa-desktop"></i><span className="highlight">View Demo</span></a>
-                                {/* <a href={`#`} className={`link link--inactive`}><i className="fas fa-code-branch"></i><span>Source Private</span></a> */}
-                                <a href={`https://github.com/string-cheese-fsa/spray-r`} className={`link`}><i className="fas fa-code-branch"></i><span className="highlight">View Source</span></a>
-                            </div>
-                            <p className={'aside'}>Spray-R is a mobile <span className={"highlight"}>augmented reality</span> graffiti app. Draw on real world surfaces and share your art with users nearby.</p>
-                        </div>
-                        <div className={`project__technologies`}>
-                            <p className={`small-section-title`}>Technologies Used</p>
-                            <ul className={`project__technologies__list`}>
-                                <li><i className="fas fa-dot-circle"></i><p>React Native</p></li>
-                                <li><i className="fas fa-dot-circle"></i><p>Redux</p></li>
-                                <li><i className="fas fa-dot-circle"></i><p>ViroReact</p></li>
-                                <li><i className="fas fa-dot-circle"></i><p>Node.js</p></li>
+                                <li><i className="fas fa-dot-circle"></i><p>HTML</p></li>
+                                <li><i className="fas fa-dot-circle"></i><p>CSS</p></li>
+                                <li><i className="fas fa-dot-circle"></i><p>JavaScript</p></li>
                             </ul>
                         </div>
                     </div>
