@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/static/media/nybright.11122160.jpg"
   },
   {
-    "revision": "d523c6c12194d947fb9816e95bdb2126",
+    "revision": "2856e5c970e3a4e35e919ec5be3ff1b3",
     "url": "/index.html"
   }
 ];
