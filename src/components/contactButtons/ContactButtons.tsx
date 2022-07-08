@@ -32,7 +32,7 @@ export default class ContactButtons extends React.Component<{}, {modalOpen: bool
                     <i className="fab fa-github"></i>
                     <span><strong>Github</strong></span>
                 </a>
-                <a href={`https://drive.google.com/file/d/1VrxIlvWJUZJPrqPIaRQOzAPP-pieyikU/view?usp=sharing`} className={`action`} target={`_blank`}>
+                <a href={`https://docs.google.com/document/d/1VrxIlvWJUZJPrqPIaRQOzAPP-pieyikU/edit?usp=sharing&ouid=106166229447543131367&rtpof=true&sd=true`} className={`action`} target={`_blank`}>
                     <i className="fas fa-newspaper"></i>
                     <span><strong>Resume</strong></span>
                 </a>
